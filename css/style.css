@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(3, 2, 0, 0.637);
+}
+
+.header {
+  background: url(/images/bg.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+}
+
+/* CSS for Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #00ffff67;
+  color: #fff;
+}
+
+/* CSS for Navbar links */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* CSS for Navbar toggle button */
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+/* CSS for Navbar when screen is less than 800px */
+@media screen and (max-width: 800px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar a {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-toggle {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+#introduction {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#more-content {
+  padding: 20px;
+}
+
+#read-more-btn {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#read-more-btn:hover {
+  background: #333;
+  color: #fff;
+  transition: 0.4s ease-in;
+}
+
+@media (max-width: 768px) {
+  #introduction {
+    font-size: 14px;
+  }
+}
+
+#introduction {
+  color: #fff;
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 30%;
+}
