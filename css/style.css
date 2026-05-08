@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-  background: url(/images/bg.jpg);
+  background: url(../images/bg.jpg);
   width: 100%;
   min-height: 100vh;
   background-position: center;
